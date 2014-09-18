@@ -1,0 +1,8 @@
+# ignore Sass compiler
+.sass-cache
+# ignore Codio settings
+.settings
+# ignore node modules
+node_modules
+# ignore bower components
+bower_components
