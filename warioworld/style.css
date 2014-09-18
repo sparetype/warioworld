@@ -359,3 +359,51 @@ width: auto;
 max-width: 100%;
 height: auto;
 }
+
+.container {
+margin: 0 auto;
+max-width: 960px;
+}
+.action-boxes {
+list-style: none;
+column-count: 1;
+column-gap: 72px;
+-moz-column-count: 1;
+-moz-column-gap: 72px;
+}
+.action-boxes li {
+width: 100%;
+display: inline-block;
+}
+
+.login {
+background: #eeeeee;
+border: 2px solid #aaaaaa;
+}
+
+.create {
+background: #eeeeee;
+border: 2px solid #aaaaaa;
+}
+
+.application {
+background: #eeeeee;
+border: 2px solid #aaaaaa;
+}
+
+.information {
+background: #eeeeee;
+border: 2px solid #aaaaaa;
+}
+
+.packaging {
+background: #eeeeee;
+border: 2px solid #aaaaaa;
+}
+
+@media screen and (min-width: 700px) {
+.action-boxes {
+column-count: 2;
+-moz-column-count: 2;
+}
+}
