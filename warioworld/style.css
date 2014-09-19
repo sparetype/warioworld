@@ -393,6 +393,8 @@ a:hover {
 color: #3aa4ff;
 }
 
+
+
 .container {
 margin: 0 auto;
 max-width: 960px;
@@ -470,6 +472,12 @@ margin: 0;
 }
 
 @media screen and (min-width: 1024px) {
+
+.body {
+background: url("warioworld_sidebar.jpg") repeat-y scroll right 0 rgba(0, 0, 0, 0);
+padding-right: 200px;
+}
+
 .action-boxes {
 column-count: 3;
 -moz-column-count: 3;
