@@ -415,6 +415,8 @@ column-count: 1;
 column-gap: 72px;
 -moz-column-count: 1;
 -moz-column-gap: 36px;
+-webkit-column-count: 1;
+-webkit-column-gap: 36px;
 margin: 0 18px;
 padding: 0;
 }
@@ -498,6 +500,7 @@ margin: 0 36px 36px 0;
 .action-boxes {
 column-count: 2;
 -moz-column-count: 2;
+-webkit-column-count: 2;
 margin: 0;
 }
 }
@@ -512,5 +515,6 @@ padding-right: 236px;
 .action-boxes {
 column-count: 3;
 -moz-column-count: 3;
+-webkit-column-count: 3;
 }
 }
