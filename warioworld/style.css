@@ -432,6 +432,19 @@ background: #eeeeee;
 border: 2px solid #aaaaaa;
 }
 
+.login-form .input {
+  margin: 0 0 12px;
+  padding: 6px;
+  width: 100%;
+  min-height: 40px;
+}
+
+.login-form .button {
+  min-height: 42px;
+  padding: 6px;
+  width: 100%;
+}
+
 .create {
 background: #eeeeee;
 border: 2px solid #aaaaaa;
